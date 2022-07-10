@@ -56,7 +56,7 @@ const Cart = (props) => {
             Order
           </button>
         )}
-        {order && <h3>Order placed!</h3>}
+        {order && <h3>Order placed! Your bill is {totalAmount}</h3>}
       </div>
     </Modal>
   );
